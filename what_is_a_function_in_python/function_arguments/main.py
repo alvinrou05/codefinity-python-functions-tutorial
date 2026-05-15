@@ -1,0 +1,12 @@
+def calculate_triangle_perimeter(a, b, c):
+    # Calculate perimeter by summing all sides
+    perimeter = 0
+
+    for num in a, b, c:
+        perimeter += num
+
+    # Print the calculated perimeter
+    print(f'The perimeter is {perimeter}')
+
+#Testing the result
+calculate_triangle_perimeter(2, 3, 5)
